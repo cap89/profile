@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=IBM+Plex+Sans&display=swap');
+
+
+/* General body styling */
+body {
+  font-family: 'EB Garamond', serif;
+  background-color: #2B2E4A;
+  text-align: center;
+}
+
+.container-top {
+  font-family: 'EB Garamond', serif;
+  background-color: #3c416a;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 30px 50px;
+}
+
+.container-bottom {
+  font-family: 'EB Garamond', serif;
+  background-color: #3c416a;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 30px 20px;
+}
+
+/* Header styles */
+h1, h2 {
+  color: #E84545;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Paragraph styling */
+p {
+  line-height: 1.6;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* Image styling */
+img {
+  width: 270px;
+  height: auto;
+  margin: auto;
+  border-radius: 50%;
+  border: 4px solid #53354A;
+}
+
+/* Link styling */
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #E84545;
+}
+
+/* List and icons */
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+i {
+  font-size: 24px;
+  color: #E84545;
+}
+
+i:hover {
+  color: #903749;
+}
+
+#btn {
+  background-color: #ffffff;
+  color: #3c416a;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#btn:hover {
+  background-color: #2B2E4A;
+  color: #ffffff;
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  #btn:hover {
+    background-color: #e7bc7c;
+    color: #000000;
+  }
+}
